@@ -22,8 +22,6 @@ namespace Laba2_1
         {
             double x = TheFunc(surname, 1);
             double y = TheFunc(surname, -1);
-            //double z = (x + y) / 2;
-            //double c = OperC(surname);
             return (x + y) / 2;
         }
 
